@@ -1,0 +1,20 @@
+{
+  "name": "table-pivoting-kata",
+  "version": "0.0.1",
+  "description": "A kata for table pivoting in JavaScript.",
+  "main": "src/index.js",
+  "scripts": {
+    "main": "node src/index.js",
+    "test": "mocha --reporter spec",
+    "watch": "mocha --reporter min --watch --recursive test/"
+  },
+  "author": "gezeta-id <gbrachi@idealista.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^2.0.0",
+    "console.table": "^0.7.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
